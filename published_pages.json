@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "second-me-fulltext-autofill",
-      "title": "Second Me: AI-Native Memory 2.0 — Auto-Fill Smoke",
-      "path": "/second-me-fulltext-autofill/",
-      "published_at": "2026-06-15T05:13:55Z"
-    },
-    {
       "slug": "second-me-human-inspired-memory-cn",
       "title": "Second Me：面向 LLM Agent 的人类启发式记忆机制",
       "path": "/second-me-human-inspired-memory-cn/",
@@ -54,6 +48,12 @@
       "title": "Runner Smoke: Attention Is All You Need",
       "path": "/runner-title-attention/",
       "published_at": "2026-06-15T22:42:30Z"
+    },
+    {
+      "slug": "second-me-fulltext-autofill",
+      "title": "Second Me: AI-Native Memory 2.0 — Auto-Fill Smoke",
+      "path": "/second-me-fulltext-autofill/",
+      "published_at": "2026-06-15T22:42:39Z"
     }
   ]
 }

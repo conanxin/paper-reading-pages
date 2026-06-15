@@ -6,6 +6,12 @@
       "title": "Attention Is All You Need",
       "path": "/attention-is-all-you-need/",
       "published_at": "2026-06-15T02:46:05Z"
+    },
+    {
+      "slug": "weakinput-title-attention-is-all-you-need",
+      "title": "Weak Input: Title Only — Attention Is All You Need",
+      "path": "/weakinput-title-attention-is-all-you-need/",
+      "published_at": "2026-06-15T03:28:32Z"
     }
   ]
 }

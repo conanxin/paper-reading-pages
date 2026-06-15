@@ -1,0 +1,17 @@
+{
+  "structured": true,
+  "hint_input": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+  "resolver_status": "matched",
+  "resolver_match_type": "url",
+  "confidence": "high",
+  "matched_canonical_title": "You and Your Research",
+  "matched_paper_id": "hamming-you-and-your-research-1986",
+  "matched_arxiv_id": null,
+  "matched_repo": null,
+  "resolver_source": "user_supplied_url",
+  "source_resolution_step": "url_to_paper_object",
+  "candidate_count": 1,
+  "fallback_legacy": false,
+  "degraded": null,
+  "candidates_top": []
+}

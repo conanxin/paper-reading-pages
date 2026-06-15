@@ -1,0 +1,17 @@
+{
+  "quality": "complete",
+  "source_resolution": [
+    {
+      "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+      "title": "You and Your Research",
+      "id": "hamming-you-and-your-research-1986",
+      "confidence": "high",
+      "match_type": "url"
+    }
+  ],
+  "evidence_strength": "complete_text",
+  "notes": "整篇 HTML 已下载并提取为 14,454 词的纯文本。包含完整正文、Q&A 与附录。",
+  "input_kind": "html",
+  "reading_mode": "full_text",
+  "confidence": "high"
+}

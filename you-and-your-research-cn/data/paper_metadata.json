@@ -1,0 +1,36 @@
+{
+  "title": "You and Your Research",
+  "title_zh": "你与你的研究",
+  "authors": [
+    "Richard W. Hamming"
+  ],
+  "venue": "Bell Communications Research Colloquium Seminar",
+  "year": 1986,
+  "date": "1986-03-07",
+  "place": "Morris Research and Engineering Center, Morristown, NJ",
+  "transcriber": "J. F. Kaiser",
+  "intro_by": "Alan G. Chynoweth",
+  "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+  "canonical_url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+  "canonical_paper_id": "hamming-you-and-your-research-1986",
+  "doi": null,
+  "arxiv_id": null,
+  "categories": [
+    "research_advice",
+    "scientific_career",
+    "talk_essay"
+  ],
+  "language": "en",
+  "page_count_html": 1,
+  "word_count": 14454,
+  "reading_mode": "full_text",
+  "source_kind": "paper_url",
+  "schema_version": "0.1.0",
+  "input_kind": "html",
+  "intake_quality": {
+    "input_kind": "html",
+    "reading_mode": "full_text",
+    "confidence": "high",
+    "quality": "complete"
+  }
+}

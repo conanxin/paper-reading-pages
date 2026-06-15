@@ -1,0 +1,92 @@
+[
+  {
+    "level": 1,
+    "title": "引言与 Chynoweth 介绍",
+    "anchor": "intro"
+  },
+  {
+    "level": 1,
+    "title": "为什么谈这个话题 / 自我审视的要求",
+    "anchor": "why"
+  },
+  {
+    "level": 2,
+    "title": "运气与脑力",
+    "anchor": "luck_brains"
+  },
+  {
+    "level": 2,
+    "title": "年龄",
+    "anchor": "age"
+  },
+  {
+    "level": 2,
+    "title": "野心",
+    "anchor": "ambition"
+  },
+  {
+    "level": 2,
+    "title": "勇气",
+    "anchor": "courage"
+  },
+  {
+    "level": 2,
+    "title": "退出与方向修正",
+    "anchor": "quit"
+  },
+  {
+    "level": 2,
+    "title": "重要问题 vs 不重要问题",
+    "anchor": "important_problem"
+  },
+  {
+    "level": 2,
+    "title": "投入度（Time 与 Priority）",
+    "anchor": "time"
+  },
+  {
+    "level": 2,
+    "title": "销售 / 沟通（写作、正式与非正式演讲）",
+    "anchor": "selling"
+  },
+  {
+    "level": 2,
+    "title": "风格（草图、明确表达、谦逊的反面）",
+    "anchor": "style"
+  },
+  {
+    "level": 2,
+    "title": "计算机的角色",
+    "anchor": "computers"
+  },
+  {
+    "level": 2,
+    "title": "信息与销售（再谈）",
+    "anchor": "information"
+  },
+  {
+    "level": 2,
+    "title": "为什么不做第一流工作 / 该如何改变",
+    "anchor": "first_class"
+  },
+  {
+    "level": 2,
+    "title": "创意：种子、敌人、朋友、勇气",
+    "anchor": "creativity"
+  },
+  {
+    "level": 2,
+    "title": "总结：做伟大工作的特征",
+    "anchor": "summary"
+  },
+  {
+    "level": 1,
+    "title": "Q&A 讨论",
+    "anchor": "qa"
+  },
+  {
+    "level": 1,
+    "title": "Richard Hamming 简历",
+    "anchor": "bio"
+  }
+]

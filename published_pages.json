@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "attention-is-all-you-need",
-      "title": "Attention Is All You Need",
-      "path": "/attention-is-all-you-need/",
-      "published_at": "2026-06-15T02:46:05Z"
-    },
-    {
       "slug": "weakinput-title-attention-is-all-you-need",
       "title": "Weak Input: Title Only — Attention Is All You Need",
       "path": "/weakinput-title-attention-is-all-you-need/",
@@ -54,6 +48,12 @@
       "title": "You and Your Research：如何选择重要问题并做好研究",
       "path": "/you-and-your-research-cn/",
       "published_at": "2026-06-15T14:12:38Z"
+    },
+    {
+      "slug": "attention-is-all-you-need",
+      "title": "Attention Is All You Need",
+      "path": "/attention-is-all-you-need/",
+      "published_at": "2026-06-15T22:41:00Z"
     }
   ]
 }

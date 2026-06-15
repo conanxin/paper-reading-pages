@@ -1,5 +1,10 @@
 {
+  "input_kind": "paper_url",
+  "reading_mode": "full_text",
+  "confidence": "high",
   "quality": "complete",
+  "evidence_strength": "complete_text",
+  "needs_confirmation": false,
   "source_resolution": [
     {
       "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
@@ -9,9 +14,5 @@
       "match_type": "url"
     }
   ],
-  "evidence_strength": "complete_text",
-  "notes": "整篇 HTML 已下载并提取为 14,454 词的纯文本。包含完整正文、Q&A 与附录。",
-  "input_kind": "html",
-  "reading_mode": "full_text",
-  "confidence": "high"
+  "notes": "完整 HTML 演讲稿 + 转写者前言 + Q&A + 作者简历。共 14,454 词的英文文本。属于研究方法 / 科研生涯主题演讲，不是实验论文。"
 }

@@ -9,7 +9,7 @@
 
 ## Intake quality
 
-- **Input kind:** html
+- **Input kind:** paper_url
 - **Confidence:** high
 - **Needs confirmation:** False
 

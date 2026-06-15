@@ -71,17 +71,62 @@
     ]
   },
   "five_cs": {
-    "category": "Methods paper proposing a new general-purpose sequence-transduction architecture (encoder–decoder, attention-only) with empirical evaluation on machine translation and constituency parsing.",
-    "context": "Sits at the intersection of three threads: encoder–decoder RNN/LSTM sequence models (Sutskever et al. 2014, Bahdanau et al. 2015); neural attention mechanisms as an addition to RNNs (Bahdanau, Cho, Bengio 2015; Luong, Pham, Manning 2015); and convolutional sequence models such as ByteNet and ConvS2S (Kalchbrenner et al. 2016, Gehring et al. 2017). The Transformer replaces both the recurrence and the convolution with attention.",
-    "correctness": "Methodologically sound. The paper states the inductive bias, provides the mathematical formulation of attention, runs controlled ablations (number of heads, attention key dimension, dropout, positional encoding type), and reports results on standard benchmarks against strong baselines. Empirically the claims about BLEU and training cost have been broadly replicated across thousands of follow-up works. The attention-head visualisation is informal but illustrative rather than load-bearing.",
+    "category": {
+      "value": "Methods paper proposing a new general-purpose sequence-transduction architecture (encoder–decoder, attention-only) with empirical evaluation on machine translation and constituency parsing.",
+      "label": "类别",
+      "evidence_label": "",
+      "note": ""
+    },
+    "context": {
+      "value": "Sits at the intersection of three threads: encoder–decoder RNN/LSTM sequence models (Sutskever et al. 2014, Bahdanau et al. 2015); neural attention mechanisms as an addition to RNNs (Bahdanau, Cho, Bengio 2015; Luong, Pham, Manning 2015); and convolutional sequence models such as ByteNet and ConvS2S (Kalchbrenner et al. 2016, Gehring et al. 2017). The Transformer replaces both the recurrence and the convolution with attention.",
+      "label": "背景",
+      "evidence_label": "",
+      "note": ""
+    },
+    "correctness": {
+      "value": "Methodologically sound. The paper states the inductive bias, provides the mathematical formulation of attention, runs controlled ablations (number of heads, attention key dimension, dropout, positional encoding type), and reports results on standard benchmarks against strong baselines. Empirically the claims about BLEU and training cost have been broadly replicated across thousands of follow-up works. The attention-head visualisation is informal but illustrative rather than load-bearing.",
+      "label": "正确性",
+      "evidence_label": "",
+      "note": ""
+    },
+    "clarity": {
+      "value": "Exceptional. The paper is well-organised (Abstract → Introduction → Background → Model Architecture → Why Self-Attention → Training → Results → Conclusion), the equations are typeset and numbered, every hyperparameter is named, and the ablations explicitly isolate the contribution of each design choice. The reader does not need to consult the supplementary material to understand the main claims.",
+      "label": "清晰度",
+      "evidence_label": "",
+      "note": ""
+    },
     "contributions": [
-      "The Transformer architecture: an encoder–decoder model whose core operation is multi-head scaled dot-product self-attention, with no recurrence and no convolutions.",
-      "Scaled dot-product attention and a justification for the √dₖ scaling factor, derived from the saturation behaviour of softmax at large dot-product magnitudes.",
-      "Multi-head attention as a way to let the model jointly attend to information from different representation subspaces at the same position.",
-      "Sinusoidal positional encodings as a way to inject order information into a permutation-invariant architecture, with empirical evidence that fixed and learned encodings perform comparably.",
-      "Empirical demonstration of state-of-the-art BLEU on WMT 2014 En→De and En→Fr with substantially reduced training cost, plus generalisation evidence on English constituency parsing."
-    ],
-    "clarity": "Exceptional. The paper is well-organised (Abstract → Introduction → Background → Model Architecture → Why Self-Attention → Training → Results → Conclusion), the equations are typeset and numbered, every hyperparameter is named, and the ablations explicitly isolate the contribution of each design choice. The reader does not need to consult the supplementary material to understand the main claims."
+      {
+        "value": "The Transformer architecture: an encoder–decoder model whose core operation is multi-head scaled dot-product self-attention, with no recurrence and no convolutions.",
+        "label": "贡献 1",
+        "evidence_label": "",
+        "note": ""
+      },
+      {
+        "value": "Scaled dot-product attention and a justification for the √dₖ scaling factor, derived from the saturation behaviour of softmax at large dot-product magnitudes.",
+        "label": "贡献 2",
+        "evidence_label": "",
+        "note": ""
+      },
+      {
+        "value": "Multi-head attention as a way to let the model jointly attend to information from different representation subspaces at the same position.",
+        "label": "贡献 3",
+        "evidence_label": "",
+        "note": ""
+      },
+      {
+        "value": "Sinusoidal positional encodings as a way to inject order information into a permutation-invariant architecture, with empirical evidence that fixed and learned encodings perform comparably.",
+        "label": "贡献 4",
+        "evidence_label": "",
+        "note": ""
+      },
+      {
+        "value": "Empirical demonstration of state-of-the-art BLEU on WMT 2014 En→De and En→Fr with substantially reduced training cost, plus generalisation evidence on English constituency parsing.",
+        "label": "贡献 5",
+        "evidence_label": "",
+        "note": ""
+      }
+    ]
   },
   "pass1": {
     "goal": "Triage the paper in 5–10 minutes: identify type, context, validity, contributions, and clarity; decide whether to read deeper.",
@@ -453,7 +498,14 @@
       "Reproduce Table 2 within ± 0.5 BLEU on En→Fr.",
       "Halving the number of heads drops BLEU by ≥ 0.5.",
       "Attention visualisation shows at least one syntactic-dependency head."
-    ]
+    ],
+    "plan_7_day": [],
+    "plan_30_day": [],
+    "plan_90_day": [],
+    "risks": [],
+    "rationale": "",
+    "applicable": true,
+    "kind": "experiment"
   },
   "open_questions": [
     "How can the quadratic memory wall of self-attention be broken without losing the parallelisability and the O(1) path length?",
@@ -772,5 +824,8 @@
       "explanation": "Table 3 (English constituency parsing F1): shows the Transformer beats or matches strong LSTM and CNN baselines on WSJ and is competitive on extra training data (BerkeleyParser).",
       "evidence_label": "[Figure/Table evidence]"
     }
-  ]
+  ],
+  "related_work": [],
+  "_is_essay_talk": false,
+  "generator_version": "v0.2.9-alpha"
 }

@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "second-me-human-inspired-memory-cn",
-      "title": "Second Me：面向 LLM Agent 的人类启发式记忆机制",
-      "path": "/second-me-human-inspired-memory-cn/",
-      "published_at": "2026-06-15T05:56:09Z"
-    },
-    {
       "slug": "you-and-your-research-cn",
       "title": "You and Your Research：如何选择重要问题并做好研究",
       "path": "/you-and-your-research-cn/",
@@ -54,6 +48,12 @@
       "title": "Second Me: AI-Native Memory 2.0 — Auto-Fill Smoke",
       "path": "/second-me-fulltext-autofill/",
       "published_at": "2026-06-15T22:42:39Z"
+    },
+    {
+      "slug": "second-me-human-inspired-memory-cn",
+      "title": "Second Me：面向 LLM Agent 的人类启发式记忆机制",
+      "path": "/second-me-human-inspired-memory-cn/",
+      "published_at": "2026-06-15T22:42:48Z"
     }
   ]
 }

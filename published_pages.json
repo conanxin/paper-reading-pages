@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "runner-title-attention",
-      "title": "Runner Smoke: Attention Is All You Need",
-      "path": "/runner-title-attention/",
-      "published_at": "2026-06-15T03:41:21Z"
-    },
-    {
       "slug": "second-me-fulltext-autofill",
       "title": "Second Me: AI-Native Memory 2.0 — Auto-Fill Smoke",
       "path": "/second-me-fulltext-autofill/",
@@ -54,6 +48,12 @@
       "title": "Weak Input: GitHub Repo — BERT",
       "path": "/weakinput-repo-bert/",
       "published_at": "2026-06-15T22:42:21Z"
+    },
+    {
+      "slug": "runner-title-attention",
+      "title": "Runner Smoke: Attention Is All You Need",
+      "path": "/runner-title-attention/",
+      "published_at": "2026-06-15T22:42:30Z"
     }
   ]
 }

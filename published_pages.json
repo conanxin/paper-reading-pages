@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "weakinput-abstract-how-to-read-a-paper",
-      "title": "Weak Input: Abstract Only — How to Read a Paper",
-      "path": "/weakinput-abstract-how-to-read-a-paper/",
-      "published_at": "2026-06-15T03:28:42Z"
-    },
-    {
       "slug": "weakinput-screenshot-how-to-read-a-paper",
       "title": "Weak Input: Screenshot Only — How to Read a Paper",
       "path": "/weakinput-screenshot-how-to-read-a-paper/",
@@ -54,6 +48,12 @@
       "title": "Weak Input: Title Only — Attention Is All You Need",
       "path": "/weakinput-title-attention-is-all-you-need/",
       "published_at": "2026-06-15T22:41:52Z"
+    },
+    {
+      "slug": "weakinput-abstract-how-to-read-a-paper",
+      "title": "Weak Input: Abstract Only — How to Read a Paper",
+      "path": "/weakinput-abstract-how-to-read-a-paper/",
+      "published_at": "2026-06-15T22:42:02Z"
     }
   ]
 }

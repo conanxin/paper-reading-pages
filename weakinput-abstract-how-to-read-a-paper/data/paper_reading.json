@@ -71,15 +71,50 @@
     ]
   },
   "five_cs": {
-    "category": "Preliminary (abstract-only): Methods / how-to essay in CS research methodology. Body was not fetched.",
-    "context": "Preliminary (abstract-only): sits in a long tradition of 'how to do research' / 'how to read a paper' essays in SIGCOMM and adjacent communities. Body was not fetched.",
-    "correctness": "Preliminary (abstract-only): the abstract alone does not give enough evidence to assess correctness; full body was not fetched.",
+    "category": {
+      "value": "Preliminary (abstract-only): Methods / how-to essay in CS research methodology. Body was not fetched.",
+      "label": "类别",
+      "evidence_label": "",
+      "note": ""
+    },
+    "context": {
+      "value": "Preliminary (abstract-only): sits in a long tradition of 'how to do research' / 'how to read a paper' essays in SIGCOMM and adjacent communities. Body was not fetched.",
+      "label": "背景",
+      "evidence_label": "",
+      "note": ""
+    },
+    "correctness": {
+      "value": "Preliminary (abstract-only): the abstract alone does not give enough evidence to assess correctness; full body was not fetched.",
+      "label": "正确性",
+      "evidence_label": "",
+      "note": ""
+    },
+    "clarity": {
+      "value": "Preliminary (abstract-only): the abstract itself is well-written; clarity of the body was not assessed because the body was not fetched.",
+      "label": "清晰度",
+      "evidence_label": "",
+      "note": ""
+    },
     "contributions": [
-      "(Preliminary, from abstract only) A three-pass reading method with the three passes named.",
-      "(Needs verification) The exact wording of the time budgets (5–10 min / ~1 h / 1–4 h) — not visible in the abstract; needs the body to confirm.",
-      "(Needs verification) The Five Cs checklist — not visible in the abstract; needs the body to confirm."
-    ],
-    "clarity": "Preliminary (abstract-only): the abstract itself is well-written; clarity of the body was not assessed because the body was not fetched."
+      {
+        "value": "(Preliminary, from abstract only) A three-pass reading method with the three passes named.",
+        "label": "贡献 1",
+        "evidence_label": "",
+        "note": ""
+      },
+      {
+        "value": "(Needs verification) The exact wording of the time budgets (5–10 min / ~1 h / 1–4 h) — not visible in the abstract; needs the body to confirm.",
+        "label": "贡献 2",
+        "evidence_label": "",
+        "note": ""
+      },
+      {
+        "value": "(Needs verification) The Five Cs checklist — not visible in the abstract; needs the body to confirm.",
+        "label": "贡献 3",
+        "evidence_label": "",
+        "note": ""
+      }
+    ]
   },
   "pass1": {
     "goal": "Preliminary Pass 1 (abstract-only). Real Pass 1 needs the body.",
@@ -402,5 +437,19 @@
       "evidence_kind": "paper_text",
       "notes": ""
     }
-  ]
+  ],
+  "related_work": [],
+  "reproduction_plan": {
+    "steps": [],
+    "plan_7_day": [],
+    "plan_30_day": [],
+    "plan_90_day": [],
+    "success_criteria": [],
+    "risks": [],
+    "rationale": "",
+    "applicable": true,
+    "kind": "experiment"
+  },
+  "_is_essay_talk": false,
+  "generator_version": "v0.2.9-alpha"
 }

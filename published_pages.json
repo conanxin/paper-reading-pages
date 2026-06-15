@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "weakinput-repo-bert",
-      "title": "Weak Input: GitHub Repo — BERT",
-      "path": "/weakinput-repo-bert/",
-      "published_at": "2026-06-15T03:29:00Z"
-    },
-    {
       "slug": "runner-title-attention",
       "title": "Runner Smoke: Attention Is All You Need",
       "path": "/runner-title-attention/",
@@ -54,6 +48,12 @@
       "title": "Weak Input: Screenshot Only — How to Read a Paper",
       "path": "/weakinput-screenshot-how-to-read-a-paper/",
       "published_at": "2026-06-15T22:42:11Z"
+    },
+    {
+      "slug": "weakinput-repo-bert",
+      "title": "Weak Input: GitHub Repo — BERT",
+      "path": "/weakinput-repo-bert/",
+      "published_at": "2026-06-15T22:42:21Z"
     }
   ]
 }

@@ -2,12 +2,6 @@
   "schema_version": "0.1",
   "pages": [
     {
-      "slug": "you-and-your-research-cn",
-      "title": "You and Your Research：如何选择重要问题并做好研究",
-      "path": "/you-and-your-research-cn/",
-      "published_at": "2026-06-15T14:12:38Z"
-    },
-    {
       "slug": "attention-is-all-you-need",
       "title": "Attention Is All You Need",
       "path": "/attention-is-all-you-need/",
@@ -54,6 +48,12 @@
       "title": "Second Me：面向 LLM Agent 的人类启发式记忆机制",
       "path": "/second-me-human-inspired-memory-cn/",
       "published_at": "2026-06-15T22:42:48Z"
+    },
+    {
+      "slug": "you-and-your-research-cn",
+      "title": "You and Your Research：如何选择重要问题并做好研究",
+      "path": "/you-and-your-research-cn/",
+      "published_at": "2026-06-16T00:18:48Z"
     }
   ]
 }
